@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=Space+Grotesk:wght@700&display=swap');
+
+.font-brand {
+  font-family: 'Outfit', 'Space Grotesk', system-ui, sans-serif;
+  letter-spacing: -0.025em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(6, 182, 212, 0.7);
+}
+
+/* Custom Glassmorphic Leaflet Popups */
+.custom-station-popup .leaflet-popup-content-wrapper {
+  border-radius: 18px;
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.35), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  padding: 6px;
+  backdrop-filter: blur(8px);
+}
+.custom-station-popup .leaflet-popup-content {
+  margin: 6px 8px;
+  line-height: 1.4;
+}
+.custom-station-popup .leaflet-popup-tip {
+  background: white;
+}
