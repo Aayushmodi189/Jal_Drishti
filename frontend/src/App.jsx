@@ -1010,10 +1010,11 @@ export default function App() {
       return list;
     };
 
+    const apiBase = import.meta.env.VITE_API_BASE_URL || ''
     Promise.all([
-      fetch('http://127.0.0.1:8000/api/engines/reservoirs').then(res => res.json()).catch(() => []),
-      fetch('http://127.0.0.1:8000/api/engines/groundwater').then(res => res.json()).catch(() => []),
-      fetch('http://127.0.0.1:8000/api/engines/leakage').then(res => res.json()).catch(() => [])
+      fetch(`${apiBase}/api/engines/reservoirs`).then(res => res.json()).catch(() => []),
+      fetch(`${apiBase}/api/engines/groundwater`).then(res => res.json()).catch(() => []),
+      fetch(`${apiBase}/api/engines/leakage`).then(res => res.json()).catch(() => [])
     ])
       .then(([resData, gwData, leakData]) => {
         const finalReservoirs = (resData && resData.length >= 10) ? resData : generateMock150Reservoirs();

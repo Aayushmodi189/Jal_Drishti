@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=Space+Grotesk:wght@700&display=swap');
+@import "tailwindcss";
 
 .font-brand {
   font-family: 'Outfit', 'Space Grotesk', system-ui, sans-serif;
