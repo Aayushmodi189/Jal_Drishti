@@ -1,4 +1,4 @@
-# 🌊 JAL DRISHTI ( जल दृष्टि )
+# JAL DRISHTI
 ### Enterprise-Grade National Water Intelligence & GIS Command Center
 
 [![Hackathon](https://img.shields.io/badge/Hackathon-NexHack--3.0-blueviolet?style=for-the-badge)](https://nexhack3.0.dev)
@@ -10,7 +10,7 @@
 
 ## 📸 Executive Overview
 
-**Jal Drishti** is a state-of-the-art, AI-driven spatial water intelligence platform engineered for real-time monitoring, shortage forecasting, and crisis mitigation across India's national water infrastructure. Built for **NexHack 3.0**, the platform aggregates multi-basin telemetry, groundwater metrics, and pipeline sensor streams into a unified, high-performance GIS Command Center.
+**Jal Drishti** is a state-of-the-art, AI-driven spatial water intelligence platform engineered for real-time monitoring, shortage forecasting, and crisis mitigation across India's national water infrastructure the platform aggregates multi-basin telemetry, groundwater metrics, and pipeline sensor streams into a unified, high-performance GIS Command Center.
 
 Featuring predictive ML modeling, automated bulletin ingestion, and dynamic "What-If" scenario simulation, **Jal Drishti** equips environmental authorities, river basin organizations, and municipal engineers with actionable foresight to mitigate droughts, manage storage drop risks, and prevent urban pipeline leakages.
 
@@ -189,17 +189,6 @@ Follow these instructions to run **Jal Drishti** locally on your computer.
 
 ---
 
-## 🏆 Hackathon Context & Deployment
-
-* **Event**: NexHack 3.0
-* **Deployment Status**: Live on Vercel
-* **Offline Safety Feature**: Includes an automatic client-side 150-node synthetic telemetry generator so the GIS interactive map operates flawlessly online even when decoupled from local server instances.
-
----
-
-## 📜 License
-
-Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 <p center="align">
